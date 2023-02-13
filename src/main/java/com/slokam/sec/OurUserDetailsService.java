@@ -38,6 +38,7 @@ public class OurUserDetailsService implements UserDetailsService{
 		
 		for(int i=0;i<roles.size();i++) {
 			strRoles[i] = roles.get(i).getName();
+			//hello chandu
 		}
 		
 		log.info("Role strings::"+strRoles);
